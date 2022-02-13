@@ -1,0 +1,87 @@
+body{
+  overflow-x: hidden;
+}
+.circle-picture{
+  border-radius: 50%;
+  max-width: 60%;
+  max-height: 60%;
+  margin-left: 90px;
+}
+
+#sidebar{
+  background-color: black;
+  height: 100%;
+}
+
+@media (min-width: 768px){
+  #sidebar{
+      position: fixed;
+  }
+}
+
+@media (max-width:768px){
+  #sidebar{
+    position: none;
+  }
+}
+
+
+
+#sidebar h1, #sidebar h2{
+  color: white;
+  text-align: center;
+}
+
+.btn-facebook{
+  color:#fff;
+  background-color:#3b5998;
+  border-color:rgba(0,0,0,0.2);
+}
+
+.btn-facebook:focus,.btn-facebook.focus{
+  color:#fff;
+  background-color:#2d4373;
+  border-color:rgba(0,0,0,0.2);
+}
+
+.btn-facebook:hover{
+  color:#fff;
+  background-color:#2d4373;
+  border-color:rgba(0,0,0,0.2);
+}
+
+.btn-linkedin{
+  color:#fff;
+  background-color:#007bb6;
+  border-color:rgba(0,0,0,0.2);
+}
+
+.btn-linkedin:focus,.btn-linkedin.focus{
+  color:#fff;
+  background-color:#005983;
+  border-color:rgba(0,0,0,0.2);
+}
+
+.btn-linkedin:hover{
+  color:#fff;
+  background-color:#005983;
+  border-color:rgba(0,0,0,0.2);
+}
+
+.btn-github{
+  color:#fff;
+  background-color:#444;
+  border-color:rgba(0,0,0,0.2);
+}
+
+.btn-github:focus,.btn-github.focus{
+  color:#fff;
+  background-color:#2b2b2b;
+  border-color:rgba(0,0,0,0.2);
+}
+
+.btn-github:hover{
+  color:#fff;
+  background-color:#2b2b2b;
+  border-color:rgba(0,0,0,0.2);
+}

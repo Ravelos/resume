@@ -1,0 +1,10 @@
+<div id="sidebar">
+
+  <img class="circle-picture" src="../../assets/img/osw.jpg" alt="Picture of a hansome man">
+
+  <h1>Resume</h1>
+  <h2>Oswaldo Ravelo</h2>
+  <a  *ngFor="let sn of social_networks" class="btn bton-block bton-social btn-{{sn.icon}}" href="{{sn.link}}" target="blank"> <span class="fa fa-{{sn.icon}}">{{sn.name}}</span>
+  </a>
+
+</div>
